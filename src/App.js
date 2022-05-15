@@ -1,8 +1,8 @@
+import React from "react";
+import Home from "./components/home-components/Home";
 function App() {
   return (
-    <div>
-      <h1> Initial Setup </h1>
-    </div>
+    <Home/>
   );
 }
 
