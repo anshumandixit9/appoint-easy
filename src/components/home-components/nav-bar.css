@@ -1,0 +1,43 @@
+.nav{
+    color: hsl(0, 0%, 96%);
+    padding: 5px;
+    float: left;
+}
+.nav-link{
+    color: white;
+}
+.navbar-dark{
+    background-color:rgb(95, 182, 182) ;
+    position: sticky;
+    top:0;
+}
+.A1{
+    margin-left: 10px;
+}
+#hide{
+    display: flex;
+}
+.dropdown-hide{
+    display: none;
+}
+.click:hover{
+    background-color: white;
+    color: rgb(95, 182, 182);
+}
+@media only screen and (max-width: 750px) {
+    .nav-res{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    button{
+        display: flex;
+    }
+    #hide{
+        display: none;
+    }
+    .dropdown-hide{
+        display: flex;
+    }
+}
