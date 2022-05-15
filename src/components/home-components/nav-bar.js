@@ -25,6 +25,13 @@ function NavBar(){
                             <NavItem>
                                 <NavLink className='click' href = '/Login'>Login/SignUp</NavLink>
                             </NavItem>
+                            <NavItem>
+                                <NavLink className='click' href = '/profile'>MyProfile</NavLink>
+                            </NavItem>
+
+                            <NavItem>
+                                <NavLink className='click' href = '/Doc_prof'>Doctor-Profile</NavLink>
+                            </NavItem>
                         </Nav>
                     </div>
                     <div className='dropdown-hide'>
@@ -32,6 +39,8 @@ function NavBar(){
                         <NavDropdown.Item href="#">Home</NavDropdown.Item>
                         <NavDropdown.Item>AboutUs</NavDropdown.Item>
                         <NavDropdown.Item href = '/Login'>Login/SignUp</NavDropdown.Item>
+                        <NavDropdown.Item href = '/profile'>MyProfile</NavDropdown.Item>
+                        <NavDropdown.Item href = '/Doc_prof'>Doctor-profile</NavDropdown.Item>
                     </NavDropdown>
                     </div>
                  </div>

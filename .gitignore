@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 /src/components/Login/Register.js
-package-lock.json
+/package-lock.json
 # testing
 /coverage
 
