@@ -1,0 +1,30 @@
+.align-search{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.align-container{
+    margin-top: 140px;
+}
+.align-input{
+    margin-top: 20px;
+}
+#button-style{
+    background-color: rgb(95, 182, 182);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#button-style:hover{
+    color: white;
+    background-color: gray;
+}
+

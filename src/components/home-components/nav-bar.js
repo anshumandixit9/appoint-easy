@@ -5,7 +5,7 @@ import './nav-bar.css'
 import logo from './logo.svg';
 function NavBar(){
     return (
-            <Navbar dark collapseOnSelect>
+            <Navbar dark >
                 <div className="container">
                     <NavbarBrand href="/" className="nav" >
                         <img src={logo} height ="60" width="60" alt=''/>

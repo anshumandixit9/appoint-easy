@@ -1,7 +1,14 @@
-import React from 'react';
+import { async } from '@firebase/util';
+import React, { useState , useRef} from 'react';
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-
+// import { useAuth } from '../../context/auth-context';
+import { signUp } from '../../Firebase/firebase-config';
 const Register = () => {
+    const emailRef = useRef();
+    const passwordRef = useRef();
+    async function handleSignUp(){
+        await signUp(emailRef.current.value, passwordRef.current.value);
+    }
     return (
         <>
             <Container>
@@ -11,23 +18,23 @@ const Register = () => {
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Full Name</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
+                                <Form.Control type="Name" placeholder="Enter Name"  />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Email Address</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
+                                <Form.Control type="email" placeholder="Enter email" ref = {emailRef}/>
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="formBasicPassword">
                                 <Form.Label> Create Password</Form.Label>
-                                <Form.Control type="password" placeholder="Password" />
+                                <Form.Control type="password" placeholder="Password" ref = {passwordRef} />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicPassword">
                                 <Form.Label> Confirm Password</Form.Label>
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
 
-                            <Button variant="primary" type="submit">
+                            <Button variant="primary" onClick={handleSignUp} type="submit">
                                 Register
                             </Button>
                         </Form>
