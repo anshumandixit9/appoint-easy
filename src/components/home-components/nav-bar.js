@@ -14,10 +14,10 @@ function NavBar(){
                     <div id = "hide">
                         <Nav justify className="justify-content-end "  >
                             <NavItem>
-                                <NavLink className="click" href="/home" >Home</NavLink>
+                                <NavLink className="click" href="/" >Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="click" href="/">About Us</NavLink>
+                                <NavLink className="click" href="/AboutUs">About Us</NavLink>
                             </NavItem>
                             <NavItem>
                             </NavItem>
@@ -36,8 +36,8 @@ function NavBar(){
                     </div>
                     <div className='dropdown-hide'>
                     <NavDropdown title = "Menu" className='click'>
-                        <NavDropdown.Item href="#">Home</NavDropdown.Item>
-                        <NavDropdown.Item>AboutUs</NavDropdown.Item>
+                        <NavDropdown.Item href="/">Home</NavDropdown.Item>
+                        <NavDropdown.Item href="/AboutUs">AboutUs</NavDropdown.Item>
                         <NavDropdown.Item href = '/Login'>Login/SignUp</NavDropdown.Item>
                         <NavDropdown.Item href = '/profile'>MyProfile</NavDropdown.Item>
                         <NavDropdown.Item href = '/Doc_prof'>Doctor-profile</NavDropdown.Item>

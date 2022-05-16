@@ -6,6 +6,8 @@ import Login from "./components/login/login";
 import Register from "./components/login/Register";
 import Mystatus from "./components/profile/user-profile";
 import Doc_prof from "./components/profile/Doc_prof";
+import Aboutus from "./components/AboutUs/about-us";
+import Footer from "./components/home-components/Footer";
 function App() {
   return (
     <Router>
@@ -16,7 +18,9 @@ function App() {
         <Route path = "/Register" element={<Register/>} />
         <Route path = "/profile" element={<Mystatus/>}/>
         <Route path = "/Doc_prof" element={<Doc_prof/>}/>
+        <Route path = "/AboutUs" element={<Aboutus/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 }
