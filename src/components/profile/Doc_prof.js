@@ -56,7 +56,7 @@ const Doc_prof = () => {
                         <tr>
                             <th width="30%">Address :</th>
                             <td width="2%">:</td>
-                            <td>Maa ki Choooooooo , Gali number 12</td>
+                            <td>Address, 12-Juction</td>
                         </tr>
                         </table>
                     </div>

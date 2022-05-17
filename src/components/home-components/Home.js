@@ -1,5 +1,6 @@
 import React from "react";
-import Nav from "./nav-bar";
+import Mapping from "../Location/distance-update";
+import Doctor from "./list-doctors";
 import Search from "./search-control";
 function Home(){
     console.log("Hello I'm Working!");

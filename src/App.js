@@ -8,10 +8,12 @@ import Mystatus from "./components/profile/user-profile";
 import Doc_prof from "./components/profile/Doc_prof";
 import Aboutus from "./components/AboutUs/about-us";
 import Footer from "./components/home-components/Footer";
+import Doctor from "./components/home-components/list-doctors"
 function App() {
   return (
     <Router>
       <NavBar/>
+      
       <Routes>
         <Route path ="/" element={<Home/>}/>
         <Route path = "/Login" element={<Login/>}/>
@@ -19,6 +21,7 @@ function App() {
         <Route path = "/profile" element={<Mystatus/>}/>
         <Route path = "/Doc_prof" element={<Doc_prof/>}/>
         <Route path = "/AboutUs" element={<Aboutus/>}/>
+        <Route path ="/Doctor" element={<Doctor/>}/>
       </Routes>
       <Footer/>
     </Router>

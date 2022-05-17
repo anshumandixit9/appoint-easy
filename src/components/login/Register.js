@@ -3,6 +3,7 @@ import React, { useState , useRef} from 'react';
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 // import { useAuth } from '../../context/auth-context';
 import { signUp } from '../../Firebase/firebase-config';
+
 const Register = () => {
     const emailRef = useRef();
     const passwordRef = useRef();
