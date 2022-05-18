@@ -5,7 +5,8 @@ export const userData = [
         "lat": "28.695565",
         "lng": "77.452315",
         "phone": "999999999",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "500"
     },
     {  
         "name": "Satyam Gupta",
@@ -21,7 +22,8 @@ export const userData = [
         "lat": "28.631748",
         "lng": "77.447621",
         "phone":"9999998880",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "1000"
     },
     {  
         "name": "Someshwar Jha",
@@ -29,7 +31,8 @@ export const userData = [
         "lat": "28.630129",
         "lng": "77.452315",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "700"
     },
     {  
         "name": "Nimit",
@@ -37,7 +40,8 @@ export const userData = [
         "lat": "28.762958871873174",
         "lng": "77.18892943768292",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "800"
     },
     {  
         "name": "Abhijit",
@@ -45,7 +49,8 @@ export const userData = [
         "lat": "28.848840927950803",
         "lng": "76.93826722851567",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "200"
     },
     {  
         "name": "Shikhar",
@@ -53,7 +58,8 @@ export const userData = [
         "lat": "28.902748606605957",
         "lng": "76.58192889934465",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "200"
     },
     {  
         "name": "Amritanshu",
@@ -61,7 +67,8 @@ export const userData = [
         "lat": "28.15257538251509",
         "lng": "77.452315",
         "phone":"777777777",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "600"
     },
     {  
         "name": "Shivam",
@@ -69,7 +76,8 @@ export const userData = [
         "lat": "28.00162338882115",
         "lng": "76.14072384788946",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "500"
     },
     {  
         "name": "Saurabh",
@@ -77,7 +85,8 @@ export const userData = [
         "lat": "28.651072997073477",
         "lng": "77.22026513225994",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "300"
     },
     {  
         "name": "Kartikey",
@@ -85,7 +94,8 @@ export const userData = [
         "lat": "28.656880385067417",
         "lng": "77.24088322499749",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "600"
     },
     {  
         "name": "Ashutosh",
@@ -93,7 +103,8 @@ export const userData = [
         "lat": "28.614677332091738",
         "lng": "77.22896091989797",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "400"
     },
     {  
         "name": "Arushi",
@@ -101,7 +112,8 @@ export const userData = [
         "lat": "28.737586724187434",
         "lng": "77.08178358663052",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "200"
     },
     {  
         "name": "Tanya",
@@ -109,6 +121,7 @@ export const userData = [
         "lat": "28.608123012887006",
         "lng": "76.65649192167417",
         "phone":"9999998881",
-        "distance" : ""
+        "distance" : "",
+        "fee" : "200"
     }
 ];

@@ -19,4 +19,4 @@ function calculateDistance(lattitude1, longittude1, lattitude2, longittude2)
     console.log("distance==?", d)
     return d
 }
-export {calculateDistance}
+export {calculateDistance};

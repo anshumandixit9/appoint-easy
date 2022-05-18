@@ -1,0 +1,10 @@
+.center {
+    justify-content: center;
+    align-items: center;
+  }
+  .image-style{
+      border-radius: 50%;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
