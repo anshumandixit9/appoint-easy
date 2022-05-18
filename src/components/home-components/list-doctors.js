@@ -41,7 +41,7 @@ function Doctor() {
                                     </Card>
                                     <Card className="center">
                                         <Button><LocationOnIcon/>Doctor Location:<div>{data.lat}</div><div>{data.lng}</div></Button>
-                                        <Button><AddLocationIcon/>Distance: <div>{data.distance}</div></Button>
+                                        <Button><AddLocationIcon/>From You: <div>{data.distance}</div></Button>
                                         <Button ><BeenhereIcon/>Book Your Slot</Button>
                                     </Card>
                                 </CardGroup>
